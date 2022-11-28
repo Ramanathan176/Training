@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Kart</title>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="index.html">
+            <h2><img src="icons/cart-fill.svg" width="25px" height="25px">E-Kart</h2>
+        </a>
+        <input id="searchbar" type="text" name="search" placeholder="Search products.." >
+        <div class="navbaricons">
+        <div class="dropdown">
+            <i class="bi bi-person-circle"></i>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <a href="cart.html">
+                <div class="cart">
+                    <i class="bi bi-cart2"></i>
+                    <div id="cartQuantity" class="cartQuantity">0</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <div class="shop" id="shop">
+
+    </div>
+    <footer>
+
+        <p id="existingCustomer">
+            <b>Already a customer? </b>
+            <a href="#" class="highlight" title="Click here to login" style="color: darkblue;">Sign in</a>
+        </p>
+        <p><small>Copyright © 2022 E-Kart, Inc.</small></p>
+        <div class="link">                
+            <a href="#" target="_blank" style="color: darkblue;" ><small>Privacy Policy</small></a> |
+            <a href="#" target="_blank" style="color: darkblue;"><small>Condition of Use</small></a> |
+            <a href="#" target="_blank" style="color: darkblue;"><small>Support</small></a>
+        </div>
+
+    </footer>
+</body>
+<script src="data.js"></script>
+<script src="main.js"></script>
+</html>
