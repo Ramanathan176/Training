@@ -22,5 +22,5 @@ let generateCartItems = () => {
         </a> `;
     }
 };
-
+// It will generate the cart items
 generateCartItems();
